@@ -1,0 +1,8 @@
+[package]
+name = "cuda-stream"
+version = "0.1.0"
+edition = "2021"
+description = "Stream processing — windowed aggregation, tumbling/sliding windows, join, and real-time data flow for agent telemetry"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
