@@ -2,7 +2,12 @@
 name = "cuda-stream"
 version = "0.1.0"
 edition = "2021"
-description = "Stream processing — windowed aggregation, tumbling/sliding windows, join, and real-time data flow for agent telemetry"
+description = "Windowed aggregation, tumbling/sliding windows, stream joins"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-stream"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
